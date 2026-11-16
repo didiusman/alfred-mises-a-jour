@@ -4,6 +4,9 @@ ALFRED-PLANTES 1
 # Codes 1000 et plus, définitifs : ne jamais en changer ni en réutiliser un. Mois en hexadécimal (bit 0 = janvier).
 # Sources : FAO-56 (tableaux 12 et 22) pour les cultures ; WUCOLS (université de Californie, Davis) pour le besoin
 # en eau des plantes d'ornement ; fiches horticoles (RHS, jardineries) pour le froid supporté et les mois.
+# v2.2.126 : codes 1700 et suivants, des plantes du monde entier (légumes tropicaux et céréales, fruits exotiques,
+# aromatiques, fleurs, plantes d'intérieur, arbres, gazons du Sud) ; 1769 n'est pas utilisé (le laurier-cerise est
+# dans « Haie »). Pour les cultures, FAO-56 ; pour l'ornement, les classes WUCOLS ramenées au barème de la liste.
 1000;0;45;105;1;-5;28;0FC;3F0;3FC;Chou-rave;Kohlrabi;Cavolo rapa;Colirrábano;Kohlrabi;chou rave|choux raves|kohlrabi|cavolo rapa|colirrabano
 1001;0;40;105;1;-15;28;03C;E03;7FC;Panais;Parsnip;Pastinaca;Chirivía;Pastinake;panais|parsnip|parsnips|pastinaca|chirivia|pastinaken
 1002;0;40;105;0;-15;28;01C;E03;7FC;Salsifis;Salsify;Scorzonera;Salsifí;Schwarzwurzel;salsifis|scorsonere|salsify|scorzonera|salsifi|schwarzwurzel
@@ -232,3 +235,91 @@ ALFRED-PLANTES 1
 1563;5;55;70;2;-20;32;70C;00F;3FC;Mahonia;Oregon grape;Maonia;Mahonia;Mahonie;mahonia|mahonias|mahonie|oregon grape|maonia
 1564;5;60;65;1;-25;38;E07;030;3FC;Cotonéaster;Cotoneaster;Cotognastro;Cotoneaster;Zwergmispel;cotoneaster|cotoneasters|cotognastro|zwergmispel|felsenmispel
 1565;5;50;80;1;-20;32;E07;0C0;3FC;Callicarpa;Beautyberry;Callicarpa;Calicarpa;Liebesperlenstrauch;callicarpa|arbre aux bonbons|arbuste aux bonbons|beautyberry|calicarpa|liebesperlenstrauch|schonfrucht
+1700;0;35;80;0;10;40;038;E00;FFF;Manioc;Cassava;Manioca;Yuca;Maniok;cassave|mandioca|tapioca
+1701;0;50;100;0;10;38;018;E00;FF8;Igname;Yam;Igname;Ñame;Yamswurzel;ignames|yams
+1702;0;30;105;1;10;38;018;700;7F8;Taro;Taro;Taro;Malanga;Taro;dachine|madere|eddoe|dasheen|colocasia|ocumo|wasserbrotwurzel
+1703;0;40;95;0;5;35;018;700;7F8;Christophine;Chayote;Zucchina centenaria;Chayote;Chayote;chayotte|chouchou|mirliton|zucchina spinosa|chayote squash
+1704;0;40;95;0;8;38;030;1C0;1F0;Margose;Bitter melon;Melone amaro;Melón amargo;Bittermelone;concombre amer|bitter gourd|karela|goya|bittergurke
+1705;0;40;95;0;8;38;030;380;3F0;Luffa;Loofah;Luffa;Esponja vegetal;Schwammkürbis;eponge vegetale|courge eponge|schwammgurke
+1706;0;40;95;0;8;38;030;300;3F0;Calebasse;Bottle gourd;Zucca da vino;Calabaza de peregrino;Flaschenkürbis;gourde|calabash|lauki|cucuzza|bottle gourds
+1707;0;45;105;0;10;38;030;1C0;1F0;Haricot kilomètre;Yardlong bean;Fagiolo asparago;Judía espárrago;Spargelbohne;haricot asperge|dolique asperge|asparagus bean|snake bean|yard long bean
+1708;0;45;100;0;8;38;030;180;1F0;Niébé;Cowpea;Fagiolo dall'occhio;Caupí;Augenbohne;dolique|cornille|haricot a oeil noir|black eyed pea|black eyed peas|fagioli dall occhio|frijol de carita|kuhbohne
+1709;0;45;105;0;8;36;030;180;1F0;Haricot mungo;Mung bean;Fagiolo mungo;Frijol mungo;Mungbohne;mungo|soja vert|mung|moong|judia mungo|mungobohne
+1710;0;40;100;0;5;38;030;1C0;1F0;Amarante;Amaranth;Amaranto;Amaranto comestible;Amarant;amarantes|amaranthe|brede|callaloo|kiwicha|fuchsschwanz
+1711;0;35;100;1;10;38;030;3C0;3F0;Baselle;Malabar spinach;Spinacio di Malabar;Espinaca de Malabar;Malabarspinat;epinard de malabar|basella|epinard indien
+1712;0;55;100;0;5;40;030;300;3F0;Sorgho;Sorghum;Sorgo;Sorgo;Mohrenhirse;milo|durra
+1713;0;55;100;0;5;40;030;180;1F0;Millet;Millet;Miglio;Mijo;Hirse;mil|millets|pearl millet|perlhirse|rispenhirse
+1714;0;20;120;0;10;40;030;300;3F0;Riz;Rice;Riso;Arroz;Reis;riziere|paddy|reispflanze
+1715;0;55;115;0;-20;32;600;060;E7F;Orge;Barley;Orzo;Cebada;Gerste;wintergerste
+1716;0;55;115;0;-15;30;006;0C0;0FE;Avoine;Oats;Avena;Avena sativa;Hafer;oat
+1717;0;40;105;0;5;35;018;3C0;3F8;Tomatillo;Tomatillo;Pomodoro verde messicano;Tomate de cáscara;Mexikanische Tomate;tomatillos|tomatille|tomate verte du mexique|husk tomato|tomate verde|tomate de fresadilla
+1718;0;40;100;1;-15;30;00C;C03;FFF;Crosne;Chinese artichoke;Tuberina;Alcachofa china;Knollenziest;crosnes|crosne du japon|stachys|japanese artichoke|knollen ziest
+1719;0;40;100;1;-2;28;018;C00;FF8;Oca du Pérou;New Zealand yam;Oca peruviana;Oca andina;Knolliger Sauerklee;oxalis tubereuse|oxalis tuberosa
+1720;0;40;100;0;-2;32;018;C00;FF8;Yacón;Yacon;Yacon;Yacón;Yacón;poire de terre|smallanthus|inkawurzel
+1721;0;60;110;0;10;40;030;300;3F0;Sésame;Sesame;Sesamo;Sésamo;Sesam;sesames|ajonjoli
+1722;0;45;105;0;-10;28;030;C03;FF3;Romanesco;Romanesco;Cavolo romanesco;Romanesco;Romanesco;chou romanesco|romanesco broccoli|broccolo romanesco|pyramidenblumenkohl
+1723;0;45;105;0;-2;35;030;1C0;1F0;Haricot de Lima;Lima bean;Fagiolo di Lima;Frijol de Lima;Limabohne;lima|butter bean|lima beans|pallar|garrofon|mondbohne
+1724;0;55;90;0;5;40;030;600;7F8;Pois d'Angole;Pigeon pea;Caiano;Guandú;Straucherbse;pois cajan|ambrevade|toor dal|gandul|guandul|cajanus
+1725;0;45;90;0;5;38;030;E00;FF0;Jicama;Jicama;Jicama;Jícama;Yambohne;pois patate|yam bean|mexican turnip|jicamas
+1726;0;40;90;1;-20;28;00C;3F8;FFF;Pissenlit;Dandelion;Tarassaco;Diente de león;Löwenzahn;pissenlits|dent de lion|soffione
+1727;0;45;100;1;-8;26;300;C07;FFF;Brocoli-rave;Rapini;Cima di rapa;Grelos;Stängelkohl;broccoli rabe|broccoletti|cime di rapa|grelo|friarielli|rubstiel
+1728;0;45;100;0;8;38;030;1C0;1F0;Haricot ailé;Winged bean;Fagiolo alato;Frijol alado;Flügelbohne;pois carre|psophocarpus|goa bean|four angled bean
+1729;0;60;75;0;5;45;018;3E0;FFF;Moringa;Moringa;Moringa;Moringa;Meerrettichbaum;moringa oleifera|ben oleifere|drumstick tree|arbol de la moringa|moringabaum
+1730;2;50;85;0;-5;35;038;1E0;1F8;Fenugrec;Fenugreek;Fieno greco;Fenogreco;Bockshornklee;trigonelle|methi|alholva
+1731;2;60;70;0;0;38;018;0C0;0F8;Cumin;Cumin;Cumino;Comino;Kreuzkümmel;jeera
+1732;2;30;95;1;2;35;018;3F0;3F8;Coriandre vietnamienne;Vietnamese coriander;Coriandolo vietnamita;Cilantro vietnamita;Vietnamesischer Koriander;rau ram|persicaire odorante|vietnamese mint|laksa leaf
+1733;2;40;95;1;-25;28;00C;0E0;3FC;Angélique;Garden angelica;Angelica;Angélica;Engelwurz;archangelique|arznei engelwurz
+1734;2;80;35;0;-5;45;018;0F0;3F8;Câprier;Caper bush;Cappero;Alcaparro;Kapernstrauch;capres|capre|caper|capers|capperi|alcaparra|alcaparras|kapern
+1735;2;40;90;1;-25;30;00C;0F0;3FC;Ortie;Nettle;Ortica;Ortiga;Brennnessel;orties|grande ortie|stinging nettle|nettles|urtica|brennessel
+1736;2;40;90;2;-25;26;300;00C;0FF;Ail des ours;Wild garlic;Aglio orsino;Ajo de oso;Bärlauch;ail sauvage|ramson|ramsons|bear garlic|aglio selvatico|ajo silvestre
+1737;1;50;80;0;2;42;018;1E0;FFF;Manguier;Mango tree;Albero di mango;Mango árbol;Mangobaum;mangue|mangues|mango|mangos|mangoes
+1738;1;40;100;0;5;38;018;FFF;FFF;Papayer;Papaya;Papaia;Papayo;Papayabaum;papaye|papayes|papayas|lechosa|papayafrucht
+1739;1;50;80;0;0;40;018;700;FFF;Goyavier;Guava;Guava;Guayabo;Guavenbaum;goyave|goyaves|guavas|guayaba|guave|guaven
+1740;1;55;70;0;-12;38;018;E00;FFF;Feijoa;Pineapple guava;Feijoa;Guayabo del Brasil;Ananasguave;feijoas|goyavier du bresil|guavasteen|acca sellowiana
+1741;1;50;80;0;0;38;018;060;FFF;Litchi;Lychee;Litchi cinese;Lichi;Litschi;letchi|lychees|litchis|lichis|litschis
+1742;1;80;30;0;-8;48;038;180;3FC;Figuier de Barbarie;Prickly pear;Fico d'India;Chumbera;Kaktusfeige;figue de barbarie|figues de barbarie|oponce|opuntia|nopal|fichi d india|higo chumbo|nopales
+1743;1;75;35;0;2;40;018;380;FFF;Pitaya;Dragon fruit;Frutto del drago;Pitahaya;Drachenfrucht;fruit du dragon|pitayas|dragonfruit|hylocereus
+1744;1;45;85;0;2;38;018;E00;FFF;Carambolier;Star fruit;Carambola;Carambolo;Sternfrucht;carambole|caramboles|starfruit|karambole
+1745;1;70;60;0;-20;42;C07;300;3FC;Jujubier;Jujube;Giuggiolo;Azufaifo;Chinesische Dattel;jujubes|chinese date|giuggiola|giuggiole|azufaifa|brustbeere
+1746;1;50;90;0;-8;50;018;600;FFF;Palmier dattier;Date palm;Palma da datteri;Palmera datilera;Dattelpalme;datte|dattes|dattier|datteri|datil|datiles|datteln
+1747;1;75;50;0;-5;45;018;180;FFF;Caroubier;Carob tree;Carrubo;Algarrobo;Johannisbrotbaum;caroube|caroubes|carob|carruba|carrube|algarroba|johannisbrot
+1748;1;50;95;0;-25;35;C07;180;3FC;Nashi;Asian pear;Pero nashi;Pera asiática;Nashi-Birne;poire asiatique|poire nashi|nashi pear|asian pears|nashibirne
+1749;1;50;80;0;-2;35;018;C07;FFF;Chérimolier;Cherimoya;Cerimolia;Chirimoyo;Cherimoya-Baum;cherimole|anone|chirimoya|annona|cherimoyas
+1750;1;50;110;0;-20;40;C07;600;3FC;Pacanier;Pecan;Noce pecan;Pacana;Pekannussbaum;noix de pecan|pecans|pecan nut|nuez pecana|pekannuss|pekannusse
+1751;1;50;80;0;-3;35;018;600;FFF;Macadamia;Macadamia;Noce di macadamia;Macadamia árbol;Macadamianuss;noix de macadamia|macadamias|queensland nut|nuez de macadamia
+1752;1;70;60;0;0;45;018;E00;FFF;Tamarinier;Tamarind;Tamarindo;Tamarindo árbol;Tamarinde;tamarin|tamarins|tamarindi|tamarinden
+1753;3;45;70;2;-30;25;300;006;00F;Perce-neige;Snowdrop;Bucaneve;Campanilla de invierno;Schneeglöckchen;galanthus|snowdrops|galanto
+1754;3;45;80;0;-8;26;606;038;07E;Renoncule;Ranunculus;Ranuncolo;Ranúnculo;Ranunkel;renoncules|persian buttercup|ranuncoli|ranunculos|ranunkeln
+1755;3;55;75;0;-10;32;00C;0E0;0FC;Nigelle;Love-in-a-mist;Damigella;Arañuela;Jungfer im Grünen;nigelles|cheveux de venus|nigella|nigella damascena
+1756;3;55;75;0;5;38;030;3C0;3F0;Cléome;Spider flower;Cleome;Cleome;Spinnenblume;cleomes|cleome hassleriana
+1757;3;50;80;1;2;35;030;3C0;3F0;Nicotiane;Flowering tobacco;Tabacco ornamentale;Tabaco ornamental;Ziertabak;nicotianes|tabac d ornement|nicotiana|tabac fleuri
+1758;3;45;85;0;5;35;030;3E0;3F0;Sauge écarlate;Scarlet sage;Salvia splendens;Salvia roja;Feuersalbei;sauge splendens|red salvia|salvia rossa|prachtsalbei
+1759;3;75;40;0;5;42;030;3C0;3F0;Pourpier à grandes fleurs;Moss rose;Portulaca grandiflora;Verdolaga de flor;Portulakröschen;portulaca|flor de seda
+1760;3;70;55;0;-10;40;018;1E0;3F8;Statice;Sea lavender;Limonio;Limonium;Strandflieder;statices|lavande de mer
+1761;4;50;40;1;10;32;01C;000;3FC;Tillandsia;Air plant;Tillandsia aerea;Clavel del aire;Luftnelke;tillandsias|filles de l air|air plants|tillandsie
+1762;4;50;55;1;5;30;01C;C00;3FC;Cactus de Noël;Christmas cactus;Cactus di Natale;Cactus de Navidad;Weihnachtskaktus;schlumbergera|thanksgiving cactus|zygocactus
+1763;4;50;60;1;10;30;01C;C01;3FC;Poinsettia;Poinsettia;Stella di Natale;Flor de Pascua;Weihnachtsstern;etoile de noel|poinsettias|nochebuena|poinsettie
+1764;4;40;70;3;12;30;01C;000;3FC;Syngonium;Arrowhead plant;Singonio;Singonio;Purpurtute;syngoniums|nephthytis|arrowhead vine|syngonium podophyllum
+1765;4;55;55;3;10;32;01C;000;3FC;Pachira;Guiana chestnut;Castagno della Guyana;Castaño de Guayana;Glückskastanie;pachira aquatica|pachiras|malabar chestnut|gluckskastanien
+1766;4;40;70;3;15;32;01C;000;3FC;Vanillier;Vanilla;Vaniglia;Vainilla;Vanille;vanilla planifolia
+1767;4;40;90;1;10;32;01C;000;3FC;Caféier;Coffee plant;Pianta del caffè;Cafeto;Kaffeestrauch;coffea|coffea arabica|caffe|planta de cafe|kaffeepflanze
+1768;5;65;55;0;-15;42;C07;1E0;3FC;Lilas des Indes;Crape myrtle;Lagerstroemia;Árbol de Júpiter;Kräuselmyrte;lagerstroemias|crepe myrtle|lagerstromia|lagerstromie
+1770;5;55;70;1;-25;35;E07;030;3FC;Seringat;Mock orange;Filadelfo;Celinda;Pfeifenstrauch;philadelphus|seringas|bauernjasmin|falscher jasmin
+1771;5;40;75;0;-25;30;70C;E07;FFF;Bruyère;Heather;Erica;Brezo;Heidekraut;bruyeres|callune|calluna|heath|brugo|besenheide|erika
+1772;5;75;45;0;-20;45;C07;030;3FC;Tamaris;Tamarisk;Tamerice;Taray;Tamariske;tamarix|tamarisco
+1773;5;45;80;1;-25;30;E07;C03;3FC;Hamamélis;Witch hazel;Amamelide;Hamamelis;Zaubernuss;witchhazel|witch hazels|hamamelis mollis
+1774;5;55;70;1;-25;35;E07;030;3FC;Deutzia;Deutzia;Deutzia arbustiva;Deutzia arbusto;Deutzie;deutzias|maiblumenstrauch
+1775;5;55;70;0;-25;35;E07;00C;3FC;Cognassier du Japon;Japanese quince;Cotogno giapponese;Membrillero japonés;Zierquitte;chaenomeles|flowering quince|scheinquitte
+1776;5;65;60;0;-20;40;C07;018;3FC;Arbre de Judée;Judas tree;Albero di Giuda;Árbol del amor;Judasbaum;gainier|cercis|redbud|arbol de judas
+1777;5;55;80;0;-25;40;C07;060;3FC;Catalpa;Indian bean tree;Catalpa bignonioides;Catalpa común;Trompetenbaum;catalpas|bois chavanon
+1778;5;65;60;0;-15;42;C07;060;3FC;Arbre à soie;Silk tree;Gaggia arborea;Acacia de Constantinopla;Seidenbaum;albizia|albizzia|acacia de constantinople|persian silk tree|schlafbaum
+1779;5;55;75;0;-30;38;C07;000;3FC;Ginkgo;Maidenhair tree;Ginkgo biloba;Árbol de los cuarenta escudos;Fächerblattbaum;ginko|arbre aux quarante ecus|ginkgobaum
+1780;5;50;95;0;-25;40;C07;000;3FC;Platane;Plane tree;Platano comune;Plátano de sombra;Platane;platanes|platanus|london plane|platanen
+1781;5;35;110;0;-35;38;C07;000;3FC;Peuplier;Poplar;Pioppo;Álamo;Pappel;peupliers|tremble|aspen|populus|chopo|espe|zitterpappel
+1782;5;50;90;0;-30;38;C07;000;3FC;Frêne;Ash tree;Frassino;Fresno;Esche;frenes|fraxinus|frassini|eschen
+1783;5;65;65;0;-25;40;C07;000;FFF;Cèdre;Cedar;Cedro;Cedro del Líbano;Zeder;cedres|cedrus|cedre du liban|cedre de l atlas|zedern
+1784;5;70;50;0;5;40;018;3E0;3F8;Frangipanier;Frangipani;Frangipane;Frangipani;Tempelbaum;plumeria|plumerias|frangipaniers|plumerie
+1785;5;40;95;1;-12;32;018;3F0;FFF;Théier;Tea plant;Pianta del tè;Planta del té;Teestrauch;camellia sinensis|tea bush|arbusto del te|teepflanze
+1786;6;50;75;0;-15;42;038;000;3F8;Zoysia;Zoysia grass;Zoysia japonica;Césped zoysia;Zoysiagras;gazon zoysia|zoysias
+1787;6;55;75;0;-10;45;038;000;3F8;Gazon bermuda;Bermuda grass;Gramigna;Grama bermuda;Hundszahngras;cynodon|bermudagrass|pasto bermuda|cynodon dactylon
+1788;6;40;85;1;-5;35;038;000;3FC;Dichondra;Kidney weed;Dicondra;Oreja de ratón;Nierenwinde;dichondra repens|dichondre
