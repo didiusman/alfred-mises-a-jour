@@ -1,6 +1,61 @@
 {
   "versions": [
     {
+      "version": "2.2.158",
+      "date": "2026-11-21",
+      "cartes": [
+        "central",
+        "jardinc5"
+      ],
+      "textes": {
+        "fr": {
+          "titre": "Revenir à une version d’avant, et l’application dans la même page",
+          "pourquoi": "Certains préféraient Alfred avant une mise à jour ; et l’application se mettait à jour ailleurs.",
+          "changements": [
+            "Vous pouvez choisir une version déjà publiée et y revenir, en lisant ce qu’elle avait apporté. Vos réglages sont gardés.",
+            "L’application Alfred se met à jour dans la même page, juste sous Alfred Central."
+          ],
+          "ou": "Réglages › Mise à jour"
+        },
+        "en": {
+          "titre": "Go back to an earlier version, and the app on the same page",
+          "pourquoi": "Some people preferred Alfred before an update; and the app was updated somewhere else.",
+          "changements": [
+            "You can choose an already published version and go back to it, reading what it brought. Your settings are kept.",
+            "The Alfred app is updated on the same page, just below Alfred Central."
+          ],
+          "ou": "Settings › Update"
+        },
+        "it": {
+          "titre": "Tornare a una versione precedente, e l’app nella stessa pagina",
+          "pourquoi": "Alcuni preferivano Alfred prima di un aggiornamento; e l’app si aggiornava altrove.",
+          "changements": [
+            "Potete scegliere una versione già pubblicata e tornarci, leggendo cosa aveva portato. Le impostazioni restano.",
+            "L’app Alfred si aggiorna nella stessa pagina, subito sotto Alfred Centrale."
+          ],
+          "ou": "Impostazioni › Aggiornamento"
+        },
+        "es": {
+          "titre": "Volver a una versión anterior, y la aplicación en la misma página",
+          "pourquoi": "Algunos preferían Alfred antes de una actualización; y la aplicación se actualizaba en otro sitio.",
+          "changements": [
+            "Puede elegir una versión ya publicada y volver a ella, leyendo lo que trajo. Sus ajustes se conservan.",
+            "La aplicación Alfred se actualiza en la misma página, justo debajo de Alfred Central."
+          ],
+          "ou": "Ajustes › Actualización"
+        },
+        "de": {
+          "titre": "Zu einer früheren Version zurück, und die App auf derselben Seite",
+          "pourquoi": "Manche mochten Alfred vor einem Update lieber; und die App wurde woanders aktualisiert.",
+          "changements": [
+            "Sie können eine bereits veröffentlichte Version wählen und zu ihr zurückkehren, mit dem, was sie gebracht hat. Ihre Einstellungen bleiben erhalten.",
+            "Die Alfred-App wird auf derselben Seite aktualisiert, direkt unter Alfred Central."
+          ],
+          "ou": "Einstellungen › Update"
+        }
+      }
+    },
+    {
       "version": "2.2.157",
       "date": "2026-11-21",
       "cartes": [

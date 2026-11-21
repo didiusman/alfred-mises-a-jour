@@ -1,2 +1,2 @@
 ALFRED-APPLI 1
-7 1.6
+8 1.7
