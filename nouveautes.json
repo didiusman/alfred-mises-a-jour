@@ -1,9 +1,62 @@
 {
   "versions": [
     {
+      "version": "2.2.157",
+      "date": "2026-11-21",
+      "cartes": [
+        "central",
+        "jardinc5"
+      ],
+      "textes": {
+        "fr": {
+          "titre": "La flèche ← vous ramène là où vous étiez",
+          "pourquoi": "La flèche ramenait toujours à la même page, même quand on venait d'ailleurs.",
+          "changements": [
+            "La flèche porte le nom de la page d'où vous venez et vous y ramène. Si vous ouvrez une page directement, elle mène à sa page habituelle."
+          ],
+          "ou": "En haut à gauche de chaque page"
+        },
+        "en": {
+          "titre": "The ← arrow takes you back where you were",
+          "pourquoi": "The arrow always led to the same page, even when you came from elsewhere.",
+          "changements": [
+            "The arrow shows the name of the page you came from and takes you back there. If you open a page directly, it leads to its usual page."
+          ],
+          "ou": "Top left of every page"
+        },
+        "it": {
+          "titre": "La freccia ← vi riporta dove eravate",
+          "pourquoi": "La freccia portava sempre alla stessa pagina, anche quando si veniva da altrove.",
+          "changements": [
+            "La freccia mostra il nome della pagina da cui venite e vi ci riporta. Se aprite una pagina direttamente, porta alla sua pagina abituale."
+          ],
+          "ou": "In alto a sinistra di ogni pagina"
+        },
+        "es": {
+          "titre": "La flecha ← le lleva de vuelta a donde estaba",
+          "pourquoi": "La flecha siempre llevaba a la misma página, aunque se viniera de otra.",
+          "changements": [
+            "La flecha muestra el nombre de la página de la que viene y le lleva de vuelta. Si abre una página directamente, lleva a su página habitual."
+          ],
+          "ou": "Arriba a la izquierda de cada página"
+        },
+        "de": {
+          "titre": "Der Pfeil ← bringt Sie dorthin zurück, wo Sie waren",
+          "pourquoi": "Der Pfeil führte immer zur selben Seite, auch wenn man von woanders kam.",
+          "changements": [
+            "Der Pfeil zeigt den Namen der Seite, von der Sie kommen, und bringt Sie dorthin zurück. Öffnen Sie eine Seite direkt, führt er zu ihrer üblichen Seite."
+          ],
+          "ou": "Oben links auf jeder Seite"
+        }
+      }
+    },
+    {
       "version": "2.2.156",
       "date": "2026-11-21",
-      "cartes": ["central", "jardinc5"],
+      "cartes": [
+        "central",
+        "jardinc5"
+      ],
       "textes": {
         "fr": {
           "titre": "Vous savez ce que change chaque mise à jour",
@@ -55,36 +108,49 @@
     {
       "version": "2.2.155",
       "date": "2026-11-21",
-      "cartes": ["central", "jardinc5"],
+      "cartes": [
+        "central",
+        "jardinc5"
+      ],
       "textes": {
         "fr": {
           "titre": "Une flèche pour revenir à l'accueil, partout",
           "pourquoi": "Sur certaines pages, rien ne permettait de revenir à l'accueil, surtout dans les Réglages.",
-          "changements": ["La flèche ← Accueil est en haut des Réglages, des Zones, de l'Aide et des pages à venir."],
+          "changements": [
+            "La flèche ← Accueil est en haut des Réglages, des Zones, de l'Aide et des pages à venir."
+          ],
           "ou": "En haut à gauche de chaque page"
         },
         "en": {
           "titre": "An arrow back to the home page, everywhere",
           "pourquoi": "Some pages had no way back to the home page, especially Settings.",
-          "changements": ["The ← Home arrow is at the top of Settings, Zones, Help and the coming-soon pages."],
+          "changements": [
+            "The ← Home arrow is at the top of Settings, Zones, Help and the coming-soon pages."
+          ],
           "ou": "Top left of every page"
         },
         "it": {
           "titre": "Una freccia per tornare alla home, ovunque",
           "pourquoi": "Su alcune pagine non c'era modo di tornare alla home, soprattutto nelle Impostazioni.",
-          "changements": ["La freccia ← Home è in alto in Impostazioni, Zone, Aiuto e nelle pagine in arrivo."],
+          "changements": [
+            "La freccia ← Home è in alto in Impostazioni, Zone, Aiuto e nelle pagine in arrivo."
+          ],
           "ou": "In alto a sinistra di ogni pagina"
         },
         "es": {
           "titre": "Una flecha para volver al inicio, en todas partes",
           "pourquoi": "En algunas páginas no había forma de volver al inicio, sobre todo en Ajustes.",
-          "changements": ["La flecha ← Inicio está arriba en Ajustes, Zonas, Ayuda y las páginas por venir."],
+          "changements": [
+            "La flecha ← Inicio está arriba en Ajustes, Zonas, Ayuda y las páginas por venir."
+          ],
           "ou": "Arriba a la izquierda de cada página"
         },
         "de": {
           "titre": "Ein Pfeil zurück zur Startseite, überall",
           "pourquoi": "Auf manchen Seiten gab es keinen Weg zurück zur Startseite, vor allem in den Einstellungen.",
-          "changements": ["Der Pfeil ← Startseite steht oben in Einstellungen, Zonen, Hilfe und den kommenden Seiten."],
+          "changements": [
+            "Der Pfeil ← Startseite steht oben in Einstellungen, Zonen, Hilfe und den kommenden Seiten."
+          ],
           "ou": "Oben links auf jeder Seite"
         }
       }
@@ -92,7 +158,10 @@
     {
       "version": "2.2.154",
       "date": "2026-11-21",
-      "cartes": ["central", "jardinc5"],
+      "cartes": [
+        "central",
+        "jardinc5"
+      ],
       "textes": {
         "fr": {
           "titre": "Un affichage propre sur les petits téléphones",
@@ -144,7 +213,9 @@
     {
       "version": "2.2.153",
       "date": "2026-11-19",
-      "cartes": ["jardinc5"],
+      "cartes": [
+        "jardinc5"
+      ],
       "textes": {
         "fr": {
           "titre": "Le Jardin se règle entièrement dans la nouvelle interface",
@@ -201,7 +272,10 @@
     {
       "version": "2.2.152",
       "date": "2026-11-19",
-      "cartes": ["central", "jardinc5"],
+      "cartes": [
+        "central",
+        "jardinc5"
+      ],
       "textes": {
         "fr": {
           "titre": "Relier un boîtier à Alfred Central, simplement",
