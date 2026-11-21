@@ -1,6 +1,60 @@
 {
   "versions": [
     {
+      "version": "2.2.160",
+      "date": "2026-11-21",
+      "cartes": [
+        "jardinc5"
+      ],
+      "textes": {
+        "fr": {
+          "titre": "Le plan de câblage d’Alfred Jardin, avec des dessins",
+          "pourquoi": "L’Aide d’Alfred Jardin montrait le plan d’Alfred Central, qui n’a pas les mêmes branchements.",
+          "changements": [
+            "L’Aide montre maintenant le guide d’Alfred Jardin et son propre plan de câblage, broche par broche.",
+            "Chaque branchement a son dessin : pompe et vanne par MOSFET ou par transistor, écran, zones 2 à 10, sondes."
+          ],
+          "ou": "Aide › Plan de câblage"
+        },
+        "en": {
+          "titre": "The Alfred Garden wiring plan, with drawings",
+          "pourquoi": "Alfred Garden’s Help showed the Alfred Central plan, which does not have the same connections.",
+          "changements": [
+            "Help now shows the Alfred Garden guide and its own wiring plan, pin by pin.",
+            "Each connection has its drawing: pump and valve through a MOSFET or a transistor, screen, zones 2 to 10, probes."
+          ],
+          "ou": "Help › Wiring plan"
+        },
+        "it": {
+          "titre": "Lo schema di cablaggio di Alfred Giardino, con disegni",
+          "pourquoi": "L’Aiuto di Alfred Giardino mostrava lo schema di Alfred Centrale, che non ha gli stessi collegamenti.",
+          "changements": [
+            "L’Aiuto ora mostra la guida di Alfred Giardino e il suo schema di cablaggio, pin per pin.",
+            "Ogni collegamento ha il suo disegno: pompa e valvola con MOSFET o transistor, schermo, zone da 2 a 10, sonde."
+          ],
+          "ou": "Aiuto › Schema di cablaggio"
+        },
+        "es": {
+          "titre": "El plano de cableado de Alfred Jardín, con dibujos",
+          "pourquoi": "La Ayuda de Alfred Jardín mostraba el plano de Alfred Central, que no tiene las mismas conexiones.",
+          "changements": [
+            "La Ayuda muestra ahora la guía de Alfred Jardín y su propio plano de cableado, pin por pin.",
+            "Cada conexión tiene su dibujo: bomba y válvula por MOSFET o por transistor, pantalla, zonas 2 a 10, sondas."
+          ],
+          "ou": "Ayuda › Plano de cableado"
+        },
+        "de": {
+          "titre": "Der Schaltplan von Alfred Jardin, mit Zeichnungen",
+          "pourquoi": "Die Hilfe von Alfred Jardin zeigte den Plan von Alfred Central, der andere Anschlüsse hat.",
+          "changements": [
+            "Die Hilfe zeigt jetzt die Anleitung von Alfred Jardin und seinen eigenen Schaltplan, Pin für Pin.",
+            "Jede Verbindung hat ihre Zeichnung: Pumpe und Ventil über MOSFET oder Transistor, Display, Zonen 2 bis 10, Fühler."
+          ],
+          "ou": "Hilfe › Schaltplan"
+        }
+      }
+    },
+    {
       "version": "2.2.159",
       "date": "2026-11-21",
       "cartes": [
