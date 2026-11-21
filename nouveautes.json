@@ -1,0 +1,254 @@
+{
+  "versions": [
+    {
+      "version": "2.2.156",
+      "date": "2026-11-21",
+      "cartes": ["central", "jardinc5"],
+      "textes": {
+        "fr": {
+          "titre": "Vous savez ce que change chaque mise à jour",
+          "pourquoi": "Avant, Alfred proposait une mise à jour sans dire ce qu'elle apportait.",
+          "changements": [
+            "Avant d'installer, la page Mise à jour explique chaque nouvelle version : pourquoi, ce qui change, et où le voir.",
+            "Vous choisissez d'installer ou non : rien ne s'installe sans votre accord."
+          ],
+          "ou": "Réglages › Mise à jour"
+        },
+        "en": {
+          "titre": "You know what each update changes",
+          "pourquoi": "Before, Alfred offered an update without saying what it brought.",
+          "changements": [
+            "Before installing, the Update page explains each new version: why, what changes, and where to see it.",
+            "You choose whether to install: nothing is installed without your consent."
+          ],
+          "ou": "Settings › Update"
+        },
+        "it": {
+          "titre": "Sapete cosa cambia ogni aggiornamento",
+          "pourquoi": "Prima Alfred proponeva un aggiornamento senza dire cosa portava.",
+          "changements": [
+            "Prima di installare, la pagina Aggiornamento spiega ogni nuova versione: perché, cosa cambia e dove vederlo.",
+            "Scegliete voi se installare: nulla si installa senza il vostro consenso."
+          ],
+          "ou": "Impostazioni › Aggiornamento"
+        },
+        "es": {
+          "titre": "Sabe lo que cambia cada actualización",
+          "pourquoi": "Antes, Alfred proponía una actualización sin decir lo que traía.",
+          "changements": [
+            "Antes de instalar, la página Actualización explica cada nueva versión: por qué, qué cambia y dónde verlo.",
+            "Usted decide si instalar: nada se instala sin su consentimiento."
+          ],
+          "ou": "Ajustes › Actualización"
+        },
+        "de": {
+          "titre": "Sie wissen, was jedes Update ändert",
+          "pourquoi": "Früher bot Alfred ein Update an, ohne zu sagen, was es bringt.",
+          "changements": [
+            "Vor der Installation erklärt die Seite Update jede neue Version: warum, was sich ändert und wo man es sieht.",
+            "Sie entscheiden, ob Sie installieren: Nichts wird ohne Ihre Zustimmung installiert."
+          ],
+          "ou": "Einstellungen › Update"
+        }
+      }
+    },
+    {
+      "version": "2.2.155",
+      "date": "2026-11-21",
+      "cartes": ["central", "jardinc5"],
+      "textes": {
+        "fr": {
+          "titre": "Une flèche pour revenir à l'accueil, partout",
+          "pourquoi": "Sur certaines pages, rien ne permettait de revenir à l'accueil, surtout dans les Réglages.",
+          "changements": ["La flèche ← Accueil est en haut des Réglages, des Zones, de l'Aide et des pages à venir."],
+          "ou": "En haut à gauche de chaque page"
+        },
+        "en": {
+          "titre": "An arrow back to the home page, everywhere",
+          "pourquoi": "Some pages had no way back to the home page, especially Settings.",
+          "changements": ["The ← Home arrow is at the top of Settings, Zones, Help and the coming-soon pages."],
+          "ou": "Top left of every page"
+        },
+        "it": {
+          "titre": "Una freccia per tornare alla home, ovunque",
+          "pourquoi": "Su alcune pagine non c'era modo di tornare alla home, soprattutto nelle Impostazioni.",
+          "changements": ["La freccia ← Home è in alto in Impostazioni, Zone, Aiuto e nelle pagine in arrivo."],
+          "ou": "In alto a sinistra di ogni pagina"
+        },
+        "es": {
+          "titre": "Una flecha para volver al inicio, en todas partes",
+          "pourquoi": "En algunas páginas no había forma de volver al inicio, sobre todo en Ajustes.",
+          "changements": ["La flecha ← Inicio está arriba en Ajustes, Zonas, Ayuda y las páginas por venir."],
+          "ou": "Arriba a la izquierda de cada página"
+        },
+        "de": {
+          "titre": "Ein Pfeil zurück zur Startseite, überall",
+          "pourquoi": "Auf manchen Seiten gab es keinen Weg zurück zur Startseite, vor allem in den Einstellungen.",
+          "changements": ["Der Pfeil ← Startseite steht oben in Einstellungen, Zonen, Hilfe und den kommenden Seiten."],
+          "ou": "Oben links auf jeder Seite"
+        }
+      }
+    },
+    {
+      "version": "2.2.154",
+      "date": "2026-11-21",
+      "cartes": ["central", "jardinc5"],
+      "textes": {
+        "fr": {
+          "titre": "Un affichage propre sur les petits téléphones",
+          "pourquoi": "Sur un téléphone étroit, la page débordait à droite et les menus du haut sortaient de l'écran.",
+          "changements": [
+            "La barre du bas (Accueil, Zones, Aide) reste bien en place.",
+            "Les menus de la cloche, des Favoris et du profil restent entièrement visibles."
+          ],
+          "ou": "Toutes les pages, surtout Réglages › Qui prévenir"
+        },
+        "en": {
+          "titre": "A tidy display on small phones",
+          "pourquoi": "On a narrow phone, the page overflowed to the right and the top menus went off the screen.",
+          "changements": [
+            "The bottom bar (Home, Zones, Help) stays in place.",
+            "The bell, Favourites and profile menus stay fully visible."
+          ],
+          "ou": "Every page, especially Settings › Who to warn"
+        },
+        "it": {
+          "titre": "Una visualizzazione pulita sui telefoni piccoli",
+          "pourquoi": "Su un telefono stretto, la pagina usciva a destra e i menu in alto uscivano dallo schermo.",
+          "changements": [
+            "La barra in basso (Home, Zone, Aiuto) resta al suo posto.",
+            "I menu della campanella, dei Preferiti e del profilo restano interamente visibili."
+          ],
+          "ou": "Tutte le pagine, soprattutto Impostazioni › Chi avvisare"
+        },
+        "es": {
+          "titre": "Una pantalla limpia en los teléfonos pequeños",
+          "pourquoi": "En un teléfono estrecho, la página se salía por la derecha y los menús de arriba salían de la pantalla.",
+          "changements": [
+            "La barra de abajo (Inicio, Zonas, Ayuda) se queda en su sitio.",
+            "Los menús de la campana, de Favoritos y del perfil se ven enteros."
+          ],
+          "ou": "Todas las páginas, sobre todo Ajustes › A quién avisar"
+        },
+        "de": {
+          "titre": "Eine saubere Anzeige auf kleinen Telefonen",
+          "pourquoi": "Auf einem schmalen Telefon lief die Seite rechts über und die Menüs oben ragten aus dem Bildschirm.",
+          "changements": [
+            "Die untere Leiste (Startseite, Zonen, Hilfe) bleibt an ihrem Platz.",
+            "Die Menüs von Glocke, Favoriten und Profil bleiben ganz sichtbar."
+          ],
+          "ou": "Alle Seiten, vor allem Einstellungen › Wer benachrichtigt wird"
+        }
+      }
+    },
+    {
+      "version": "2.2.153",
+      "date": "2026-11-19",
+      "cartes": ["jardinc5"],
+      "textes": {
+        "fr": {
+          "titre": "Le Jardin se règle entièrement dans la nouvelle interface",
+          "pourquoi": "Trois réglages d'Alfred Jardin n'étaient encore que dans l'ancien site.",
+          "changements": [
+            "Le nombre de zones, de 0 à 10.",
+            "L'eau : la cuve, l'eau de ville ou les deux.",
+            "Se connecter par : la box, le Wi-Fi d'Alfred Central, ou le meilleur des deux."
+          ],
+          "ou": "Réglages › Le boîtier, Eau, et Piloté par Alfred Central"
+        },
+        "en": {
+          "titre": "The Garden box is fully set up in the new interface",
+          "pourquoi": "Three Alfred Garden settings were still only in the old site.",
+          "changements": [
+            "The number of zones, from 0 to 10.",
+            "Water: the tank, mains water, or both.",
+            "Connect through: the router, Alfred Central's Wi-Fi, or the better of the two."
+          ],
+          "ou": "Settings › The box, Water, and Controlled by Alfred Central"
+        },
+        "it": {
+          "titre": "Il Giardino si imposta interamente nella nuova interfaccia",
+          "pourquoi": "Tre impostazioni di Alfred Giardino erano ancora solo nel vecchio sito.",
+          "changements": [
+            "Il numero di zone, da 0 a 10.",
+            "L'acqua: il serbatoio, l'acqua di rete o entrambi.",
+            "Collegarsi tramite: il router, il Wi-Fi di Alfred Centrale o il migliore dei due."
+          ],
+          "ou": "Impostazioni › Il box, Acqua e Comandato da Alfred Centrale"
+        },
+        "es": {
+          "titre": "El Jardín se ajusta por completo en la nueva interfaz",
+          "pourquoi": "Tres ajustes de Alfred Jardín seguían solo en el sitio antiguo.",
+          "changements": [
+            "El número de zonas, de 0 a 10.",
+            "El agua: el depósito, el agua de red o las dos.",
+            "Conectarse por: el router, el Wi-Fi de Alfred Central o el mejor de los dos."
+          ],
+          "ou": "Ajustes › La caja, Agua y Controlado por Alfred Central"
+        },
+        "de": {
+          "titre": "Der Garten lässt sich ganz in der neuen Oberfläche einstellen",
+          "pourquoi": "Drei Einstellungen von Alfred Garten gab es noch nur auf der alten Seite.",
+          "changements": [
+            "Die Zahl der Zonen, von 0 bis 10.",
+            "Das Wasser: der Tank, Leitungswasser oder beides.",
+            "Verbinden über: den Router, das WLAN von Alfred Central oder das bessere von beiden."
+          ],
+          "ou": "Einstellungen › Das Gerät, Wasser und Gesteuert von Alfred Central"
+        }
+      }
+    },
+    {
+      "version": "2.2.152",
+      "date": "2026-11-19",
+      "cartes": ["central", "jardinc5"],
+      "textes": {
+        "fr": {
+          "titre": "Relier un boîtier à Alfred Central, simplement",
+          "pourquoi": "On ne trouvait pas où mettre l'adresse et la clé d'un boîtier pour qu'il parle à Alfred Central.",
+          "changements": [
+            "Sur le boîtier : « Piloté par Alfred Central » donne sa clé à 6 chiffres.",
+            "Sur Alfred Central : la page du boîtier a une partie « Adresse et clé »."
+          ],
+          "ou": "Réglages › Piloté par Alfred Central ; Zones › le boîtier › Régler"
+        },
+        "en": {
+          "titre": "Linking a box to Alfred Central, simply",
+          "pourquoi": "It was hard to find where to enter a box's address and key so it talks to Alfred Central.",
+          "changements": [
+            "On the box: “Controlled by Alfred Central” gives its 6-digit key.",
+            "On Alfred Central: the box page has an “Address and key” section."
+          ],
+          "ou": "Settings › Controlled by Alfred Central; Zones › the box › Settings"
+        },
+        "it": {
+          "titre": "Collegare un box ad Alfred Centrale, semplicemente",
+          "pourquoi": "Non si trovava dove inserire l'indirizzo e la chiave di un box perché parli con Alfred Centrale.",
+          "changements": [
+            "Sul box: «Comandato da Alfred Centrale» dà la sua chiave a 6 cifre.",
+            "Su Alfred Centrale: la pagina del box ha una parte «Indirizzo e chiave»."
+          ],
+          "ou": "Impostazioni › Comandato da Alfred Centrale; Zone › il box › Regola"
+        },
+        "es": {
+          "titre": "Enlazar una caja con Alfred Central, de forma sencilla",
+          "pourquoi": "No se encontraba dónde poner la dirección y la clave de una caja para que hable con Alfred Central.",
+          "changements": [
+            "En la caja: «Controlado por Alfred Central» da su clave de 6 cifras.",
+            "En Alfred Central: la página de la caja tiene una parte «Dirección y clave»."
+          ],
+          "ou": "Ajustes › Controlado por Alfred Central; Zonas › la caja › Ajustar"
+        },
+        "de": {
+          "titre": "Ein Gerät einfach mit Alfred Central verbinden",
+          "pourquoi": "Man fand nicht, wo Adresse und Schlüssel eines Geräts einzutragen sind, damit es mit Alfred Central spricht.",
+          "changements": [
+            "Auf dem Gerät: „Gesteuert von Alfred Central“ zeigt seinen 6-stelligen Schlüssel.",
+            "Auf Alfred Central: Die Seite des Geräts hat einen Teil „Adresse und Schlüssel“."
+          ],
+          "ou": "Einstellungen › Gesteuert von Alfred Central; Zonen › das Gerät › Einstellen"
+        }
+      }
+    }
+  ]
+}
