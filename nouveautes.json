@@ -1,6 +1,61 @@
 {
   "versions": [
     {
+      "version": "2.2.159",
+      "date": "2026-11-21",
+      "cartes": [
+        "central",
+        "jardinc5"
+      ],
+      "textes": {
+        "fr": {
+          "titre": "Un plan de câblage avec des dessins",
+          "pourquoi": "Brancher la centrale, ses résistances et ses transistors était difficile à suivre avec des tableaux seuls.",
+          "changements": [
+            "Chaque branchement a son dessin : résistances avec leurs couleurs, transistors vus de face, ventilateur, mise à jour de la centrale.",
+            "Une liste de vérifications à cocher avant d’allumer."
+          ],
+          "ou": "Aide › Plan de câblage"
+        },
+        "en": {
+          "titre": "A wiring plan with drawings",
+          "pourquoi": "Wiring the control unit, its resistors and its transistors was hard to follow with tables alone.",
+          "changements": [
+            "Each connection has its drawing: resistors with their colours, transistors seen from the front, fan, control unit update.",
+            "A checklist to tick before switching on."
+          ],
+          "ou": "Help › Wiring plan"
+        },
+        "it": {
+          "titre": "Uno schema di cablaggio con disegni",
+          "pourquoi": "Collegare la centralina, le resistenze e i transistor era difficile da seguire con le sole tabelle.",
+          "changements": [
+            "Ogni collegamento ha il suo disegno: resistenze con i colori, transistor visti di fronte, ventola, aggiornamento della centralina.",
+            "Una lista di controlli da spuntare prima di accendere."
+          ],
+          "ou": "Aiuto › Schema di cablaggio"
+        },
+        "es": {
+          "titre": "Un plano de cableado con dibujos",
+          "pourquoi": "Conectar la central, sus resistencias y sus transistores era difícil de seguir solo con tablas.",
+          "changements": [
+            "Cada conexión tiene su dibujo: resistencias con sus colores, transistores vistos de frente, ventilador, actualización de la central.",
+            "Una lista de comprobaciones para marcar antes de encender."
+          ],
+          "ou": "Ayuda › Plano de cableado"
+        },
+        "de": {
+          "titre": "Ein Schaltplan mit Zeichnungen",
+          "pourquoi": "Zentrale, Widerstände und Transistoren anzuschließen war mit Tabellen allein schwer nachzuvollziehen.",
+          "changements": [
+            "Jede Verbindung hat ihre Zeichnung: Widerstände mit ihren Farben, Transistoren von vorn, Lüfter, Update der Zentrale.",
+            "Eine Checkliste zum Abhaken vor dem Einschalten."
+          ],
+          "ou": "Hilfe › Schaltplan"
+        }
+      }
+    },
+    {
       "version": "2.2.158",
       "date": "2026-11-21",
       "cartes": [
