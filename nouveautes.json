@@ -1,6 +1,61 @@
 {
   "versions": [
     {
+      "version": "2.2.162",
+      "date": "2026-11-24",
+      "cartes": [
+        "central",
+        "jardinc5"
+      ],
+      "textes": {
+        "fr": {
+          "titre": "Imprimer les guides",
+          "pourquoi": "Pour avoir le manuel et le plan de câblage sur papier, à côté du boîtier.",
+          "changements": [
+            "Chaque guide de l’Aide a un aperçu avant impression, avec ses dessins.",
+            "Puis « Imprimer », ou l’enregistrer en PDF."
+          ],
+          "ou": "Aide › un guide › Aperçu avant impression"
+        },
+        "en": {
+          "titre": "Print the guides",
+          "pourquoi": "To have the manual and the wiring plan on paper, next to the box.",
+          "changements": [
+            "Each guide in Help has a print preview, drawings included.",
+            "Then “Print”, or save it as a PDF."
+          ],
+          "ou": "Help › a guide › Print preview"
+        },
+        "it": {
+          "titre": "Stampare le guide",
+          "pourquoi": "Per avere il manuale e lo schema di cablaggio su carta, accanto al box.",
+          "changements": [
+            "Ogni guida dell’Aiuto ha un’anteprima di stampa, con i disegni.",
+            "Poi «Stampa», o salvarla in PDF."
+          ],
+          "ou": "Aiuto › una guida › Anteprima di stampa"
+        },
+        "es": {
+          "titre": "Imprimir las guías",
+          "pourquoi": "Para tener el manual y el plano de cableado en papel, junto a la caja.",
+          "changements": [
+            "Cada guía de la Ayuda tiene una vista previa de impresión, con sus dibujos.",
+            "Luego «Imprimir», o guardarla en PDF."
+          ],
+          "ou": "Ayuda › una guía › Vista previa de impresión"
+        },
+        "de": {
+          "titre": "Anleitungen drucken",
+          "pourquoi": "Um Anleitung und Schaltplan auf Papier neben dem Gehäuse zu haben.",
+          "changements": [
+            "Jede Anleitung in der Hilfe hat eine Druckvorschau, mit Zeichnungen.",
+            "Dann „Drucken“ oder als PDF speichern."
+          ],
+          "ou": "Hilfe › eine Anleitung › Druckvorschau"
+        }
+      }
+    },
+    {
       "version": "2.2.161",
       "date": "2026-11-24",
       "cartes": [
