@@ -1,6 +1,61 @@
 {
   "versions": [
     {
+      "version": "2.2.164",
+      "date": "2026-11-25",
+      "cartes": [
+        "central",
+        "jardinc5"
+      ],
+      "textes": {
+        "fr": {
+          "titre": "Le nom de la zone en majuscules",
+          "pourquoi": "Pour bien lire le nom de chaque zone.",
+          "changements": [
+            "La première plante nomme la zone en majuscules, par exemple « BLETTE ».",
+            "Vous pouvez toujours le changer ensuite."
+          ],
+          "ou": "Zones › une zone › Mes plantations"
+        },
+        "en": {
+          "titre": "Zone name in capitals",
+          "pourquoi": "To read each zone’s name easily.",
+          "changements": [
+            "The first plant names the zone in capitals, for example “CHARD”.",
+            "You can still change it afterwards."
+          ],
+          "ou": "Zones › a zone › My plants"
+        },
+        "it": {
+          "titre": "Nome della zona in maiuscolo",
+          "pourquoi": "Per leggere bene il nome di ogni zona.",
+          "changements": [
+            "La prima pianta dà alla zona il nome in maiuscolo, per esempio «BIETOLA».",
+            "Si può sempre cambiare dopo."
+          ],
+          "ou": "Zone › una zona › Le mie piante"
+        },
+        "es": {
+          "titre": "Nombre de la zona en mayúsculas",
+          "pourquoi": "Para leer bien el nombre de cada zona.",
+          "changements": [
+            "La primera planta nombra la zona en mayúsculas, por ejemplo «ACELGA».",
+            "Siempre puede cambiarlo después."
+          ],
+          "ou": "Zonas › una zona › Mis plantas"
+        },
+        "de": {
+          "titre": "Zonenname in Großbuchstaben",
+          "pourquoi": "Damit der Name jeder Zone gut lesbar ist.",
+          "changements": [
+            "Die erste Pflanze benennt die Zone in Großbuchstaben, zum Beispiel „MANGOLD“.",
+            "Sie können ihn danach jederzeit ändern."
+          ],
+          "ou": "Zonen › eine Zone › Meine Pflanzen"
+        }
+      }
+    },
+    {
       "version": "2.2.163",
       "date": "2026-11-24",
       "cartes": [
