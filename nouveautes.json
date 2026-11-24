@@ -1,6 +1,65 @@
 {
   "versions": [
     {
+      "version": "2.2.161",
+      "date": "2026-11-24",
+      "cartes": [
+        "central"
+      ],
+      "textes": {
+        "fr": {
+          "titre": "Tester avant de démarrer",
+          "pourquoi": "Pour monter la centrale pièce par pièce et vérifier chaque pièce depuis le téléphone.",
+          "changements": [
+            "Chaque capteur se coche et montre sa mesure ; chaque vanne, relais, LED et le buzzer se mettent en marche à la main.",
+            "Les boutons appuyés et un motif de l’écran se voient ; pendant les essais, Alfred n’arrose plus.",
+            "Les essais ont leur propre mot de passe, choisi la première fois."
+          ],
+          "ou": "Réglages › Tester avant de démarrer"
+        },
+        "en": {
+          "titre": "Test before starting",
+          "pourquoi": "To build the control unit part by part and check each part from the phone.",
+          "changements": [
+            "Each sensor can be ticked and shows its reading; each valve, relay, LED and the buzzer can be switched on by hand.",
+            "Pressed buttons and a screen pattern can be seen; during the tests, Alfred no longer waters.",
+            "The tests have their own password, chosen the first time."
+          ],
+          "ou": "Settings › Test before starting"
+        },
+        "it": {
+          "titre": "Prova prima di iniziare",
+          "pourquoi": "Per montare la centralina pezzo per pezzo e controllare ogni pezzo dal telefono.",
+          "changements": [
+            "Ogni sensore si spunta e mostra la sua misura; ogni valvola, relè, LED e il cicalino si accendono a mano.",
+            "Si vedono i tasti premuti e un motivo sullo schermo; durante le prove Alfred non irriga più.",
+            "Le prove hanno la loro password, scelta la prima volta."
+          ],
+          "ou": "Impostazioni › Prova prima di iniziare"
+        },
+        "es": {
+          "titre": "Probar antes de empezar",
+          "pourquoi": "Para montar la central pieza a pieza y comprobar cada pieza desde el teléfono.",
+          "changements": [
+            "Cada sensor se marca y muestra su medida; cada válvula, relé, LED y el zumbador se ponen en marcha a mano.",
+            "Se ven los botones pulsados y un motivo en la pantalla; durante las pruebas, Alfred ya no riega.",
+            "Las pruebas tienen su propia contraseña, elegida la primera vez."
+          ],
+          "ou": "Ajustes › Probar antes de empezar"
+        },
+        "de": {
+          "titre": "Vor dem Start testen",
+          "pourquoi": "Um die Zentrale Teil für Teil aufzubauen und jedes Teil vom Handy aus zu prüfen.",
+          "changements": [
+            "Jeder Sensor wird angehakt und zeigt seinen Messwert; jedes Ventil, Relais, jede LED und der Summer lassen sich von Hand einschalten.",
+            "Gedrückte Tasten und ein Anzeigemuster sind zu sehen; während der Tests bewässert Alfred nicht.",
+            "Die Tests haben ihr eigenes Passwort, beim ersten Mal gewählt."
+          ],
+          "ou": "Einstellungen › Vor dem Start testen"
+        }
+      }
+    },
+    {
       "version": "2.2.160",
       "date": "2026-11-21",
       "cartes": [
