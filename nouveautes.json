@@ -1,6 +1,61 @@
 {
   "versions": [
     {
+      "version": "2.2.163",
+      "date": "2026-11-24",
+      "cartes": [
+        "central",
+        "jardinc5"
+      ],
+      "textes": {
+        "fr": {
+          "titre": "La zone prend le nom de sa plante",
+          "pourquoi": "Pour ne plus avoir à taper deux fois le même nom.",
+          "changements": [
+            "La première plante d’une zone lui donne son nom, par exemple « Blette ».",
+            "Vous pouvez le changer ensuite ; un nom choisi à la main reste."
+          ],
+          "ou": "Zones › une zone › Mes plantations"
+        },
+        "en": {
+          "titre": "The zone takes its plant’s name",
+          "pourquoi": "So you no longer type the same name twice.",
+          "changements": [
+            "A zone’s first plant gives it its name, for example “Chard”.",
+            "You can change it afterwards; a name you chose yourself stays."
+          ],
+          "ou": "Zones › a zone › My plants"
+        },
+        "it": {
+          "titre": "La zona prende il nome della pianta",
+          "pourquoi": "Per non scrivere due volte lo stesso nome.",
+          "changements": [
+            "La prima pianta di una zona le dà il nome, per esempio «Bietola».",
+            "Si può cambiare dopo; un nome scelto a mano resta."
+          ],
+          "ou": "Zone › una zona › Le mie piante"
+        },
+        "es": {
+          "titre": "La zona toma el nombre de su planta",
+          "pourquoi": "Para no escribir dos veces el mismo nombre.",
+          "changements": [
+            "La primera planta de una zona le da su nombre, por ejemplo «Acelga».",
+            "Puede cambiarlo después; un nombre elegido a mano se queda."
+          ],
+          "ou": "Zonas › una zona › Mis plantas"
+        },
+        "de": {
+          "titre": "Die Zone heißt wie ihre Pflanze",
+          "pourquoi": "Damit Sie denselben Namen nicht zweimal tippen.",
+          "changements": [
+            "Die erste Pflanze einer Zone gibt ihr den Namen, zum Beispiel „Mangold“.",
+            "Sie können ihn danach ändern; ein selbst gewählter Name bleibt."
+          ],
+          "ou": "Zonen › eine Zone › Meine Pflanzen"
+        }
+      }
+    },
+    {
       "version": "2.2.162",
       "date": "2026-11-24",
       "cartes": [
