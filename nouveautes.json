@@ -1,6 +1,61 @@
 {
   "versions": [
     {
+      "version": "2.2.166",
+      "date": "2026-11-25",
+      "cartes": [
+        "central",
+        "jardinc5"
+      ],
+      "textes": {
+        "fr": {
+          "titre": "Sonde d’air plus fiable",
+          "pourquoi": "La sonde d’air se disait perdue ou montrait une température folle.",
+          "changements": [
+            "Une lecture ratée garde la dernière mesure.",
+            "Une valeur qui saute d’un coup attend d’être confirmée."
+          ],
+          "ou": "Accueil › Air"
+        },
+        "en": {
+          "titre": "More reliable air sensor",
+          "pourquoi": "The air sensor was reported lost or showed a crazy temperature.",
+          "changements": [
+            "A failed reading keeps the last value.",
+            "A value that jumps suddenly waits to be confirmed."
+          ],
+          "ou": "Home › Air"
+        },
+        "it": {
+          "titre": "Sonda dell’aria più affidabile",
+          "pourquoi": "La sonda dell’aria risultava persa o mostrava una temperatura assurda.",
+          "changements": [
+            "Una lettura mancata tiene l’ultima misura.",
+            "Un valore che salta di colpo aspetta di essere confermato."
+          ],
+          "ou": "Home › Aria"
+        },
+        "es": {
+          "titre": "Sonda de aire más fiable",
+          "pourquoi": "La sonda de aire se daba por perdida o mostraba una temperatura absurda.",
+          "changements": [
+            "Una lectura fallida guarda la última medida.",
+            "Un valor que salta de golpe espera a ser confirmado."
+          ],
+          "ou": "Inicio › Aire"
+        },
+        "de": {
+          "titre": "Zuverlässigerer Luftfühler",
+          "pourquoi": "Der Luftfühler galt als verloren oder zeigte eine unsinnige Temperatur.",
+          "changements": [
+            "Ein fehlgeschlagener Messwert behält den letzten Wert.",
+            "Ein plötzlicher Sprung wartet auf Bestätigung."
+          ],
+          "ou": "Start › Luft"
+        }
+      }
+    },
+    {
       "version": "2.2.165",
       "date": "2026-11-25",
       "cartes": [
