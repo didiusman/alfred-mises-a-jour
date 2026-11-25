@@ -1,6 +1,66 @@
 {
   "versions": [
     {
+      "version": "2.2.165",
+      "date": "2026-11-25",
+      "cartes": [
+        "central",
+        "jardinc5"
+      ],
+      "textes": {
+        "fr": {
+          "titre": "Réglage fin pendant les essais",
+          "pourquoi": "Pour régler la centrale au plus juste en la montant.",
+          "changements": [
+            "La force des LED verte, bleue et orange.",
+            "La correction des thermomètres et le seuil jour / nuit.",
+            "L’étalonnage de chaque capteur d’humidité, avec la lecture du moment."
+          ],
+          "ou": "Réglages › Tester avant de démarrer › Réglage fin"
+        },
+        "en": {
+          "titre": "Fine tuning during tests",
+          "pourquoi": "To set up the control unit precisely while building it.",
+          "changements": [
+            "The brightness of the green, blue and orange LEDs.",
+            "Thermometer correction and the day / night threshold.",
+            "Calibration of each moisture sensor, with the current reading."
+          ],
+          "ou": "Settings › Test before starting › Fine tuning"
+        },
+        "it": {
+          "titre": "Regolazione fine durante le prove",
+          "pourquoi": "Per regolare la centralina con precisione mentre la si monta.",
+          "changements": [
+            "L’intensità dei LED verde, blu e arancione.",
+            "La correzione dei termometri e la soglia giorno / notte.",
+            "La taratura di ogni sensore di umidità, con la lettura del momento."
+          ],
+          "ou": "Impostazioni › Prova prima di iniziare › Regolazione fine"
+        },
+        "es": {
+          "titre": "Ajuste fino durante las pruebas",
+          "pourquoi": "Para ajustar la central con precisión al montarla.",
+          "changements": [
+            "La intensidad de los LED verde, azul y naranja.",
+            "La corrección de los termómetros y el umbral día / noche.",
+            "La calibración de cada sensor de humedad, con la lectura del momento."
+          ],
+          "ou": "Ajustes › Probar antes de empezar › Ajuste fino"
+        },
+        "de": {
+          "titre": "Feineinstellung beim Testen",
+          "pourquoi": "Um die Zentrale beim Aufbau genau einzustellen.",
+          "changements": [
+            "Die Helligkeit der grünen, blauen und orangen LED.",
+            "Korrektur der Thermometer und die Tag-/Nacht-Schwelle.",
+            "Die Kalibrierung jedes Feuchtesensors mit dem aktuellen Wert."
+          ],
+          "ou": "Einstellungen › Vor dem Start testen › Feineinstellung"
+        }
+      }
+    },
+    {
       "version": "2.2.164",
       "date": "2026-11-25",
       "cartes": [
