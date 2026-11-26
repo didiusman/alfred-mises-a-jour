@@ -1,6 +1,60 @@
 {
   "versions": [
     {
+      "version": "2.2.168",
+      "date": "2026-11-26",
+      "cartes": [
+        "central"
+      ],
+      "textes": {
+        "fr": {
+          "titre": "Alfred et la centrale se comprennent de nouveau",
+          "pourquoi": "Depuis la version précédente, le site ralentissait et « Tester avant de démarrer » ne démarrait plus.",
+          "changements": [
+            "Les ordres envoyés à la centrale ne se perdent plus.",
+            "Le site répond de nouveau vite."
+          ],
+          "ou": "Réglages › Tester avant de démarrer"
+        },
+        "en": {
+          "titre": "Alfred and the control unit understand each other again",
+          "pourquoi": "Since the previous version, the site was slow and “Test before starting” would not start.",
+          "changements": [
+            "Orders sent to the control unit are no longer lost.",
+            "The site responds quickly again."
+          ],
+          "ou": "Settings › Test before starting"
+        },
+        "it": {
+          "titre": "Alfred e la centralina si capiscono di nuovo",
+          "pourquoi": "Dalla versione precedente il sito era lento e «Prova prima di iniziare» non partiva.",
+          "changements": [
+            "Gli ordini inviati alla centralina non si perdono più.",
+            "Il sito risponde di nuovo velocemente."
+          ],
+          "ou": "Impostazioni › Prova prima di iniziare"
+        },
+        "es": {
+          "titre": "Alfred y la central vuelven a entenderse",
+          "pourquoi": "Desde la versión anterior, el sitio iba lento y «Probar antes de empezar» no arrancaba.",
+          "changements": [
+            "Las órdenes enviadas a la central ya no se pierden.",
+            "El sitio vuelve a responder rápido."
+          ],
+          "ou": "Ajustes › Probar antes de empezar"
+        },
+        "de": {
+          "titre": "Alfred und die Zentrale verstehen sich wieder",
+          "pourquoi": "Seit der vorigen Version war die Seite langsam und „Vor dem Start testen“ startete nicht.",
+          "changements": [
+            "An die Zentrale gesendete Befehle gehen nicht mehr verloren.",
+            "Die Seite antwortet wieder schnell."
+          ],
+          "ou": "Einstellungen › Vor dem Start testen"
+        }
+      }
+    },
+    {
       "version": "2.2.167",
       "date": "2026-11-26",
       "cartes": [
