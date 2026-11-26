@@ -1,6 +1,65 @@
 {
   "versions": [
     {
+      "version": "2.2.167",
+      "date": "2026-11-26",
+      "cartes": [
+        "central"
+      ],
+      "textes": {
+        "fr": {
+          "titre": "Pompe de la cuve et modules MOSFET",
+          "pourquoi": "Pour arroser depuis une cuve avec une pompe, et remplacer les relais.",
+          "changements": [
+            "La pompe de la cuve, avec l’ordre et les délais au dixième de seconde.",
+            "« Essayer la séquence » pour régler à l’oreille.",
+            "Relais ou MOSFET, et sondes d’air SHT31 / SHT41."
+          ],
+          "ou": "Réglages › Tester avant de démarrer"
+        },
+        "en": {
+          "titre": "Tank pump and MOSFET modules",
+          "pourquoi": "To water from a tank with a pump, and replace the relays.",
+          "changements": [
+            "The tank pump, with order and delays to a tenth of a second.",
+            "“Try the sequence” to tune by ear.",
+            "Relays or MOSFET, and SHT31 / SHT41 air sensors."
+          ],
+          "ou": "Settings › Test before starting"
+        },
+        "it": {
+          "titre": "Pompa del serbatoio e moduli MOSFET",
+          "pourquoi": "Per irrigare da un serbatoio con una pompa e sostituire i relè.",
+          "changements": [
+            "La pompa del serbatoio, con ordine e ritardi al decimo di secondo.",
+            "«Provare la sequenza» per regolare a orecchio.",
+            "Relè o MOSFET, e sonde dell’aria SHT31 / SHT41."
+          ],
+          "ou": "Impostazioni › Prova prima di iniziare"
+        },
+        "es": {
+          "titre": "Bomba del depósito y módulos MOSFET",
+          "pourquoi": "Para regar desde un depósito con bomba y sustituir los relés.",
+          "changements": [
+            "La bomba del depósito, con orden y retardos al décimo de segundo.",
+            "«Probar la secuencia» para ajustar de oído.",
+            "Relés o MOSFET, y sondas de aire SHT31 / SHT41."
+          ],
+          "ou": "Ajustes › Probar antes de empezar"
+        },
+        "de": {
+          "titre": "Tankpumpe und MOSFET-Module",
+          "pourquoi": "Um aus einem Tank mit Pumpe zu bewässern und die Relais zu ersetzen.",
+          "changements": [
+            "Die Tankpumpe, mit Reihenfolge und Verzögerungen auf die Zehntelsekunde.",
+            "„Ablauf testen“, um nach Gehör einzustellen.",
+            "Relais oder MOSFET, und Luftfühler SHT31 / SHT41."
+          ],
+          "ou": "Einstellungen › Vor dem Start testen"
+        }
+      }
+    },
+    {
       "version": "2.2.166",
       "date": "2026-11-25",
       "cartes": [
