@@ -1,6 +1,60 @@
 {
   "versions": [
     {
+      "version": "2.2.170",
+      "date": "2026-11-28",
+      "cartes": [
+        "central"
+      ],
+      "textes": {
+        "fr": {
+          "titre": "La centrale ne redémarre plus toute seule",
+          "pourquoi": "Depuis la version 2.2.168, la centrale redémarrait toutes les 30 secondes : liaison coupée, mesures perdues, site lent.",
+          "changements": [
+            "La liaison avec Alfred reste stable.",
+            "Le site répond de nouveau vite."
+          ],
+          "ou": "Réglages › Centrale"
+        },
+        "en": {
+          "titre": "The control unit no longer restarts by itself",
+          "pourquoi": "Since version 2.2.168, the control unit restarted every 30 seconds: link lost, readings lost, slow site.",
+          "changements": [
+            "The link with Alfred stays stable.",
+            "The site responds quickly again."
+          ],
+          "ou": "Settings › Control unit"
+        },
+        "it": {
+          "titre": "La centralina non si riavvia più da sola",
+          "pourquoi": "Dalla versione 2.2.168 la centralina si riavviava ogni 30 secondi: collegamento perso, misure perse, sito lento.",
+          "changements": [
+            "Il collegamento con Alfred resta stabile.",
+            "Il sito risponde di nuovo velocemente."
+          ],
+          "ou": "Impostazioni › Centralina"
+        },
+        "es": {
+          "titre": "La central ya no se reinicia sola",
+          "pourquoi": "Desde la versión 2.2.168, la central se reiniciaba cada 30 segundos: enlace cortado, medidas perdidas, sitio lento.",
+          "changements": [
+            "El enlace con Alfred se mantiene estable.",
+            "El sitio vuelve a responder rápido."
+          ],
+          "ou": "Ajustes › Central"
+        },
+        "de": {
+          "titre": "Die Zentrale startet nicht mehr von selbst neu",
+          "pourquoi": "Seit Version 2.2.168 startete die Zentrale alle 30 Sekunden neu: Verbindung weg, Messwerte weg, langsame Seite.",
+          "changements": [
+            "Die Verbindung mit Alfred bleibt stabil.",
+            "Die Seite antwortet wieder schnell."
+          ],
+          "ou": "Einstellungen › Zentrale"
+        }
+      }
+    },
+    {
       "version": "2.2.169",
       "date": "2026-11-27",
       "cartes": [
