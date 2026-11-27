@@ -1,6 +1,65 @@
 {
   "versions": [
     {
+      "version": "2.2.169",
+      "date": "2026-11-27",
+      "cartes": [
+        "central"
+      ],
+      "textes": {
+        "fr": {
+          "titre": "Une sonde dehors, en plus de celle du boîtier",
+          "pourquoi": "La sonde de la centrale mesure l'air du boîtier, pas celui du jardin.",
+          "changements": [
+            "L'accueil montre trois tuiles : Boîtier, Extérieur et Terre.",
+            "La sonde extérieure se règle comme les autres.",
+            "Le gel et la canicule suivent l'air du dehors."
+          ],
+          "ou": "Accueil, et Réglages › Tester avant de démarrer › Réglage fin"
+        },
+        "en": {
+          "titre": "An outdoor probe, besides the box one",
+          "pourquoi": "The control unit's probe measures the air in the box, not in the garden.",
+          "changements": [
+            "The home page shows three tiles: Box, Outdoors and Soil.",
+            "The outdoor probe can be adjusted like the others.",
+            "Frost and heatwave follow the outdoor air."
+          ],
+          "ou": "Home, and Settings › Test before starting › Fine tuning"
+        },
+        "it": {
+          "titre": "Una sonda esterna, oltre a quella del box",
+          "pourquoi": "La sonda della centralina misura l'aria del box, non quella del giardino.",
+          "changements": [
+            "La home mostra tre riquadri: Box, Esterno e Terreno.",
+            "La sonda esterna si regola come le altre.",
+            "Gelo e canicola seguono l'aria esterna."
+          ],
+          "ou": "Home, e Impostazioni › Prova prima di iniziare › Regolazione fine"
+        },
+        "es": {
+          "titre": "Una sonda exterior, además de la de la caja",
+          "pourquoi": "La sonda de la central mide el aire de la caja, no el del jardín.",
+          "changements": [
+            "El inicio muestra tres casillas: Caja, Exterior y Tierra.",
+            "La sonda exterior se ajusta como las demás.",
+            "La helada y el calor siguen el aire de fuera."
+          ],
+          "ou": "Inicio, y Ajustes › Probar antes de empezar › Ajuste fino"
+        },
+        "de": {
+          "titre": "Ein Außenfühler, zusätzlich zum Gehäusefühler",
+          "pourquoi": "Der Fühler der Zentrale misst die Luft im Gehäuse, nicht im Garten.",
+          "changements": [
+            "Die Startseite zeigt drei Kacheln: Gehäuse, Außen und Boden.",
+            "Der Außenfühler lässt sich wie die anderen einstellen.",
+            "Frost und Hitze folgen der Außenluft."
+          ],
+          "ou": "Startseite, und Einstellungen › Vor dem Start testen › Feineinstellung"
+        }
+      }
+    },
+    {
       "version": "2.2.168",
       "date": "2026-11-26",
       "cartes": [
