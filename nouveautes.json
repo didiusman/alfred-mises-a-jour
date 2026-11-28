@@ -1,6 +1,60 @@
 {
   "versions": [
     {
+      "version": "2.2.172",
+      "date": "2026-11-28",
+      "cartes": [
+        "central"
+      ],
+      "textes": {
+        "fr": {
+          "titre": "Un réglage fin en couleurs",
+          "pourquoi": "Le réglage fin était austère.",
+          "changements": [
+            "Chaque réglage a sa couleur et son icône.",
+            "Une barre montre la position, les boutons − et + la règlent."
+          ],
+          "ou": "Réglages › Tester avant de démarrer › Réglage fin"
+        },
+        "en": {
+          "titre": "Fine tuning in colour",
+          "pourquoi": "Fine tuning looked dull.",
+          "changements": [
+            "Each setting has its colour and icon.",
+            "A bar shows the position, the − and + buttons set it."
+          ],
+          "ou": "Settings › Test before starting › Fine tuning"
+        },
+        "it": {
+          "titre": "Regolazione fine a colori",
+          "pourquoi": "La regolazione fine era austera.",
+          "changements": [
+            "Ogni regolazione ha il suo colore e la sua icona.",
+            "Una barra mostra la posizione, i pulsanti − e + la regolano."
+          ],
+          "ou": "Impostazioni › Prova prima di iniziare › Regolazione fine"
+        },
+        "es": {
+          "titre": "Ajuste fino en colores",
+          "pourquoi": "El ajuste fino era austero.",
+          "changements": [
+            "Cada ajuste tiene su color y su icono.",
+            "Una barra muestra la posición, los botones − y + la ajustan."
+          ],
+          "ou": "Ajustes › Probar antes de empezar › Ajuste fino"
+        },
+        "de": {
+          "titre": "Feineinstellung in Farbe",
+          "pourquoi": "Die Feineinstellung war nüchtern.",
+          "changements": [
+            "Jede Einstellung hat ihre Farbe und ihr Symbol.",
+            "Ein Balken zeigt die Stellung, die Tasten − und + stellen sie ein."
+          ],
+          "ou": "Einstellungen › Vor dem Start testen › Feineinstellung"
+        }
+      }
+    },
+    {
       "version": "2.2.171",
       "date": "2026-11-28",
       "cartes": [
