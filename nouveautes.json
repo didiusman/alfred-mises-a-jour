@@ -1,6 +1,66 @@
 {
   "versions": [
     {
+      "version": "2.2.171",
+      "date": "2026-11-28",
+      "cartes": [
+        "central",
+        "jardinc5"
+      ],
+      "textes": {
+        "fr": {
+          "titre": "Plus de détails sur les boîtiers, et des boutons pour le réglage fin",
+          "pourquoi": "Les tuiles des boîtiers en disaient peu, et les curseurs du réglage fin bougeaient tout seuls sous le doigt.",
+          "changements": [
+            "Chaque boîtier dit le jour ou la nuit, la réserve et le gel.",
+            "Ses zones s'affichent avec leurs plantes et leur humidité.",
+            "Le réglage fin se fait avec des boutons − et +."
+          ],
+          "ou": "Accueil › Modules déportés, et Réglages › Tester avant de démarrer"
+        },
+        "en": {
+          "titre": "More details on the boxes, and buttons for fine tuning",
+          "pourquoi": "The box tiles said little, and the fine-tuning sliders moved under the finger.",
+          "changements": [
+            "Each box shows day or night, the reserve and frost.",
+            "Its zones show their plants and moisture.",
+            "Fine tuning uses − and + buttons."
+          ],
+          "ou": "Home › Remote modules, and Settings › Test before starting"
+        },
+        "it": {
+          "titre": "Più dettagli sui box e pulsanti per la regolazione fine",
+          "pourquoi": "I riquadri dei box dicevano poco e i cursori della regolazione fine si spostavano sotto il dito.",
+          "changements": [
+            "Ogni box indica giorno o notte, la riserva e il gelo.",
+            "Le sue zone mostrano piante e umidità.",
+            "La regolazione fine si fa con i pulsanti − e +."
+          ],
+          "ou": "Home › Moduli remoti, e Impostazioni › Prova prima di iniziare"
+        },
+        "es": {
+          "titre": "Más detalles de las cajas y botones para el ajuste fino",
+          "pourquoi": "Las casillas de las cajas decían poco y los cursores del ajuste fino se movían bajo el dedo.",
+          "changements": [
+            "Cada caja indica día o noche, la reserva y la helada.",
+            "Sus zonas muestran sus plantas y su humedad.",
+            "El ajuste fino se hace con botones − y +."
+          ],
+          "ou": "Inicio › Módulos remotos, y Ajustes › Probar antes de empezar"
+        },
+        "de": {
+          "titre": "Mehr Details zu den Kästen und Tasten für die Feineinstellung",
+          "pourquoi": "Die Kacheln der Kästen sagten wenig, und die Schieberegler bewegten sich unter dem Finger.",
+          "changements": [
+            "Jeder Kasten zeigt Tag oder Nacht, Reserve und Frost.",
+            "Seine Zonen zeigen Pflanzen und Feuchte.",
+            "Die Feineinstellung geht mit den Tasten − und +."
+          ],
+          "ou": "Startseite › Außenmodule, und Einstellungen › Vor dem Start testen"
+        }
+      }
+    },
+    {
       "version": "2.2.170",
       "date": "2026-11-28",
       "cartes": [
